@@ -90,3 +90,7 @@ This manner of displaying numerical data is called a [histogram](https://en.wiki
 * Write a class method, `.artist_count`, that returns a histogram similar to the one above, but for artists rather than genres. 
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/ruby-class-variables-and-class-methods-lab'>Class Variables and Methods Lab</a> on Learn.co and start learning to code for free.</p>
+
+
+
+In the spec tests --- Is it more sensible if @@genre_count and @@artist_count are required to be Local, rather than Class, variables? As Class variables, they will incorrectly grow in size every time the #genre_count and #artist_count class methods are called. 
